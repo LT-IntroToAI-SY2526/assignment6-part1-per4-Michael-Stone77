@@ -34,7 +34,19 @@ def load_and_explore_data(filename):
     # TODO: Print basic statistics (mean, min, max, etc.)
     
     # TODO: Return the dataframe
-    pass
+    
+    data = pd.read_csv(filename)
+    
+    print("=== student scores Data ===")
+    print(f"\nFirst 5 rows:")
+    print(data.head())
+    
+    print(f"\nDataset shape: {data.shape[0]} rows, {data.shape[1]} columns")
+    
+    print(f"\nBasic statistics:")
+    print(data.describe())
+    
+    return data
 
 
 def create_scatter_plot(data):
