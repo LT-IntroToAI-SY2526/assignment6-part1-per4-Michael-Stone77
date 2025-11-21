@@ -81,7 +81,7 @@ We split the data into training and testing data becuase if we did not it would 
 What was the most challenging part of this assignment for you? How did you overcome it (or what help do you still need)?
 
 **YOUR ANSWER:**
-
+The most challanging part of the assignment was writing the code for visualize results as when I tried it the first time, it didn't work so I had to rewrite it line by line and after when I tested it it worked fine. I don't know what the error was but I was able to overcome it by rewritting the code and getting rid of the error.
 
 
 
@@ -96,7 +96,7 @@ Describe one real-world problem you could solve with linear regression. What wou
 - **Why this relationship might be linear:**
 
 **YOUR ANSWER:**
-S
+A real world problem that could be solved with linear regression would be hourly wages and time with the X being number of hours and Y being amount of money per hour.  This relationship might be linear becuase they would both increase if one of them increased as the more hours worked would mean that the amount of money made would increase with it, making them linear.
 
 
 
