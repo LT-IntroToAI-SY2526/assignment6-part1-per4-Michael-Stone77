@@ -299,7 +299,7 @@ if __name__ == "__main__":
     
     # Step 7: Make a new prediction
     # TODO: Call make_prediction() for a student who studied 7 hours
-    make_prediction(model, 7)
+    make_prediction(model, 10)
     
     print("\n" + "=" * 70)
     print("✓ Assignment complete! Check your saved plots.")

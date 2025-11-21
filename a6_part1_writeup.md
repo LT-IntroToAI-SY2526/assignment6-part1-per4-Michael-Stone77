@@ -11,7 +11,7 @@
 What does the R² score tell you about your model? What does it mean if R² is close to 1? What if it's close to 0?
 
 **YOUR ANSWER:**
-
+The R^2 score tells you about the variance in the dependent variable and how much that variance is explained by the independent variable. If it's closer to 1 that means the data closely fits the model created from it, but if it's closer to 0 that means the model poorly fits the data.
 
 
 
@@ -21,7 +21,7 @@ What does the R² score tell you about your model? What does it mean if R² is c
 What does the MSE (Mean Squared Error) mean in plain English? Why do you think we square the errors instead of just taking the average of the errors?
 
 **YOUR ANSWER:**
-
+The Mean Squared Error compares the difference between the predicted values and actual values then squares them and takes the average.  I think we square it because it ensures all vaues being compared are positive and don't mess up the average if they were included.
 
 
 
@@ -33,7 +33,7 @@ Would you trust this model to predict a score for a student who studied 10 hours
 - What happens when you make predictions outside the range of your training data?
 
 **YOUR ANSWER:**
-
+I would trust it because  the maximum hours in the dataset is close to 10 and it is able to predict with relative certainty for values not in the range of training data so I think it could accuractly predict it.
 
 
 
@@ -48,7 +48,7 @@ Looking at your scatter plot, describe the relationship between hours studied an
 - Positive or negative?
 
 **YOUR ANSWER:**
-
+The relationship between hours studied and test scores is a strong, linear,positive relationship because for the most part, when one goes up the other follows showing a positive and strong relationship and the points created create a linear line of best fit, showing a linear relationship.
 
 
 
@@ -58,9 +58,9 @@ Looking at your scatter plot, describe the relationship between hours studied an
 What are some real-world factors that could affect test scores that this model doesn't account for? List at least 3 factors.
 
 **YOUR ANSWER:**
-1. 
-2. 
-3. 
+1. hours of sleep
+2. if someone comprehends what they are studying
+3. difficulty of the test
 
 
 ---
@@ -71,7 +71,7 @@ What are some real-world factors that could affect test scores that this model d
 Why do we split our data into training and testing sets? What would happen if we trained and tested on the same data?
 
 **YOUR ANSWER:**
-
+We split the data into training and testing data becuase if we did not it would create overly optimistic results that will appear good but when new data s put in, it will struggle to work with it causing big problems for the model.
 
 
 
@@ -96,7 +96,7 @@ Describe one real-world problem you could solve with linear regression. What wou
 - **Why this relationship might be linear:**
 
 **YOUR ANSWER:**
-
+S
 
 
 
